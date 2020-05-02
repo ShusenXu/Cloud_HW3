@@ -1,0 +1,129 @@
+.container{
+    margin-top:20px;
+}
+.image-preview-input {
+    position: relative;
+	overflow: hidden;
+	margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+
+.input-group .form-control {
+    float: none !important;
+}
+
+.upload {
+    vertical-align: inherit !important;
+}
+
+
+
+#custom-search-input {
+    padding: 0;
+    text-align: center;
+    width: 55%;
+    margin: 30px auto;
+}
+
+#custom-search-input .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#custom-search-input button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -48px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color:#D9230F;
+}
+
+.search-query:focus + button {
+    z-index: 3;   
+}
+
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+
+#quote-carousel .carousel-control.right 
+{
+  right: -12px;
+}
+
+#quote-carousel .carousel-indicators 
+{
+  top: auto;
+  bottom: 0px;
+}
+
+#quote-carousel .carousel-indicators li 
+{
+  background: green;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: darkgreen;
+}
+
+#quote-carousel img
+{
+  /* margin-left: 85%; */
+}
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.show-img {
+    width: 100%;
+    height: auto;
+}
